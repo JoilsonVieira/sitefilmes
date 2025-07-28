@@ -1,4 +1,58 @@
 .titulo {
     background-color: #032541;
-    color: white;
+    color           : white;
+    padding         : 10px;
+    height          : 80px;
+
+
+}
+
+
+.logo {
+    img {
+        // padding: 20px;
+        width     : 200px;
+        margin-top: 14px;
+    }
+}
+
+.menu {
+    display: flex;
+    color  : white;
+
+    button {
+        color      : white;
+        margin-left: 10px;
+        margin-top : 12px;
+        padding    : 5px;
+        font-weight: 800;
+    }
+}
+
+
+.sinopse {
+    display            : block;
+    height             : 490px;
+    background-image   : url('https://image.tmdb.org/t/p/w300_and_h450_bestv2/c55sXCaQBj3vuHqZe62tv90xCQS.jpg%201x,%20https://media.themoviedb.org/t/p/w600_and_h900_bestv2/c55sXCaQBj3vuHqZe62tv90xCQS.jpg%202x');
+    background-size    : cover;
+    background-position: center;
+    background-repeat  : no-repeat;
+}
+
+.submenu {
+    height         : 50px;
+    display        : flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.classificacao {
+    margin-left  : 28px;
+    margin-top   : -20px;
+    color        : white;
+    border       : 2px solid white;
+    padding      : 4px 8px;
+    display      : inline-block;
+    border-radius: 4px;
+    height       : min-content;
 }

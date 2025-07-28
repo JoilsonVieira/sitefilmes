@@ -1,9 +1,84 @@
 <div class="titulo">
-  <div>
-    <span>
+  <div class="menu flex justify-between">
+    <div class="flex">
+      <span class="logo">
+        <img
+          src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+          alt="logo">
+      </span>
+      <div>
+        <button mat-button>Menu</button>
+        <button mat-button>Séries</button>
+        <button mat-button>Filmes</button>
+        <button mat-button>Contato</button>
+      </div>
+    </div>
+    <div style="margin-top: -1px;">
+      <button mat-button >
+        +
+      </button>
+      <button mat-button style="border: 2px solid white;padding: 0px 0px;
+    display: inline-block;border-radius: 4px;
+    height:min-content;">PT</button>
+      <button mat-button>Entrar</button>
+      <button mat-button>Junte-se ao TMDB</button>
+    </div>
+  </div>
+
+</div>
+<div class="submenu">
+  <div style="margin-bottom: 12px;">
+    <button mat-button>Visão Geral</button>
+    <button mat-button>Mídia</button>
+    <button mat-button>Fã clube</button>
+    <button mat-button>Compartilhar</button>
+  </div>
+</div>
+<div class="sinopse absolute w-full">
+  <div class="w-full h-[490px] bg-black opacity-80"></div>
+</div>
+<div class="absolute">
+  <div class="flex">
+    <div style="margin: 20px;">
       <img
-        src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
-        alt="logo">
-    </span>
+        src="https://image.tmdb.org/t/p/w300_and_h450_bestv2/c55sXCaQBj3vuHqZe62tv90xCQS.jpg%201x,%20https://media.themoviedb.org/t/p/w600_and_h900_bestv2/c55sXCaQBj3vuHqZe62tv90xCQS.jpg%202x"
+        alt="">
+    </div>
+    <div>
+      <h1 style="margin-top:30px; color: white; margin-left: 30px; font-size: xx-large; font-weight: bold;">Demon
+        Slayer: Kimetsu no Yaiba
+        Castelo Infinito (2025)</h1>
+      <span>
+        <span class="classificacao">
+          PG12
+        </span>
+      </span>
+      <span style="color: white; font-weight: 600;">
+        11/09/2025 (BR) • Animação, Ação, Fantasia, Thriller • 2h 30m
+      </span>
+      <div>
+        <section>
+          <div class="example-button-row">
+            <div class="example-flex-container">
+              <div class="example-button-container">
+                <button mat-fab aria-label="Example icon button with a delete icon">
+                  <mat-icon>menu</mat-icon>
+                </button>
+              </div>
+              <div class="example-button-container">
+                <button mat-fab color="accent" aria-label="Example icon button with a bookmark icon">
+                  <mat-icon>favorite</mat-icon>
+                </button>
+              </div>
+              <div class="example-button-container">
+                <button mat-fab color="warn" aria-label="Example icon button with a home icon">
+                  <mat-icon>bookmark</mat-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
   </div>
 </div>
