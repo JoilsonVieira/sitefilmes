@@ -40,10 +40,14 @@
 }
 
 .submenu {
-    height         : 50px;
-    display        : flex;
-    justify-content: center;
-    margin-top: 12px;
+    height          : 35px;
+    display         : flex;
+    justify-content : center;
+    background-color: #5CC5BA;
+
+    button.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base {
+        color: white;
+    }
 }
 
 .classificacao {
@@ -55,4 +59,55 @@
     display      : inline-block;
     border-radius: 4px;
     height       : min-content;
+}
+
+.btn1.mdc-fab.mat-mdc-fab.mat-accent.mat-mdc-button-base {
+    background : #88CDA5;
+    color      : #032541;
+    margin-left: 10px;
+    height     : 46px;
+    width      : 46px;
+    filter: drop-shadow(0 0 2px white);
+}
+
+.btn2.mdc-fab.mat-mdc-fab.mat-accent.mat-mdc-button-base {
+    background : #5CC5BA;
+    color      : #032541;
+    margin-left: 10px;
+    height     : 46px;
+    width      : 46px;
+    filter: drop-shadow(0 0 2px white);
+
+}
+
+.btn3.mdc-fab.mat-mdc-fab.mat-accent.mat-mdc-button-base {
+    background : #06B4E1;
+    color      : #032541;
+    margin-left: 10px;
+    height     : 46px;
+    width      : 46px;
+    filter: drop-shadow(0 0 2px white);
+
+}
+
+.button_Fab {
+    display: flex;
+    margin : 20px;
+}
+
+.titulo_Sinopse {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 34px;
+    letter-spacing: 3px;
+}
+
+.sinopse_Descricao {
+    color:white;
+    font-size: 20px;
+    font-weight:400;
+    margin-left: 34px;
+    letter-spacing: 1px;
+    line-height: 25px;
 }

@@ -1,3 +1,4 @@
+<app-carousel></app-carousel>
 <div class="titulo">
   <div class="menu flex justify-between">
     <div class="flex">
@@ -14,7 +15,7 @@
       </div>
     </div>
     <div style="margin-top: -1px;">
-      <button mat-button >
+      <button mat-button>
         +
       </button>
       <button mat-button style="border: 2px solid white;padding: 0px 0px;
@@ -39,13 +40,14 @@
 </div>
 <div class="absolute">
   <div class="flex">
-    <div style="margin: 20px;">
-      <img
+    <div style="margin: 20px;filter: drop-shadow(0 0 3px white);">
+      <img style="border-radius: 10px;"
         src="https://image.tmdb.org/t/p/w300_and_h450_bestv2/c55sXCaQBj3vuHqZe62tv90xCQS.jpg%201x,%20https://media.themoviedb.org/t/p/w600_and_h900_bestv2/c55sXCaQBj3vuHqZe62tv90xCQS.jpg%202x"
         alt="">
     </div>
     <div>
-      <h1 style="margin-top:30px; color: white; margin-left: 30px; font-size: xx-large; font-weight: bold;">Demon
+      <h1 style="margin-top:30px; color: white; margin-left: 30px; font-size: xx-large; font-weight: bold;    filter: drop-shadow(0 0 2px black);
+">Demon
         Slayer: Kimetsu no Yaiba
         Castelo Infinito (2025)</h1>
       <span>
@@ -57,27 +59,38 @@
         11/09/2025 (BR) • Animação, Ação, Fantasia, Thriller • 2h 30m
       </span>
       <div>
-        <section>
-          <div class="example-button-row">
-            <div class="example-flex-container">
-              <div class="example-button-container">
-                <button mat-fab aria-label="Example icon button with a delete icon">
-                  <mat-icon>menu</mat-icon>
-                </button>
-              </div>
-              <div class="example-button-container">
-                <button mat-fab color="accent" aria-label="Example icon button with a bookmark icon">
-                  <mat-icon>favorite</mat-icon>
-                </button>
-              </div>
-              <div class="example-button-container">
-                <button mat-fab color="warn" aria-label="Example icon button with a home icon">
-                  <mat-icon>bookmark</mat-icon>
-                </button>
-              </div>
-            </div>
+        <div class="button_Fab">
+          <div>
+            <button mat-fab aria-label="Example icon button with a delete icon" class="btn1">
+              <mat-icon>menu</mat-icon>
+            </button>
           </div>
-        </section>
+          <div>
+            <button mat-fab aria-label="Example icon button with a bookmark icon" class="btn2">
+              <mat-icon>favorite</mat-icon>
+            </button>
+          </div>
+          <div>
+            <button mat-fab aria-label="Example icon button with a home icon" class="btn3">
+              <mat-icon>bookmark</mat-icon>
+            </button>
+          </div>
+        </div>
+        <div>
+          <br>
+          <div class="titulo_Sinopse">
+            Sinopse:
+          </div>
+          <br>
+          <div class="sinopse_Descricao">
+            O Corpo de Caçadores de Demônios confronta os <br> Doze Kizuki restantes antes de enfrentar Muzan na <br>
+            Fortaleza Infinita para derrotá-lo de uma vez por todas.
+          </div>
+          <br>
+          <div>
+            a
+          </div>
+        </div>
       </div>
     </div>
   </div>
